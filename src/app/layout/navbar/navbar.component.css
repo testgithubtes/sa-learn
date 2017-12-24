@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+li :hover{
+    background-color: rgba(255, 255, 115, 0.7);
+    border-radius: 20%;
+}
+@media all and (max-widht: 500px) {
+    ul {
+        flex-direction:  column;
+    }
+}
+@media all and (max-width: 800px){
+    ul {
+        justify-content: space-around;
+    }
+}

@@ -10,6 +10,7 @@ import { CoursComponent } from './cours/cours.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { MainComponent } from './layout/main/main.component';
+import { AccueilComponent } from './accueil/accueil.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MainComponent } from './layout/main/main.component';
     AboutComponent,
     NavbarComponent,
     FooterComponent,
-    MainComponent
+    MainComponent,
+    AccueilComponent
   ],
   imports: [
     BrowserModule,

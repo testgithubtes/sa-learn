@@ -8,6 +8,7 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     background-color: rgba(255, 255, 255, 0.7);
+    
 }
 li a {
     display: block;
@@ -22,7 +23,7 @@ li a {
 }
 li :hover{
     background-color: rgba(255, 255, 115, 0.7);
-    border-radius: 20%;
+    border-radius: 15%;
 }
 @media all and (max-widht: 500px) {
     ul {

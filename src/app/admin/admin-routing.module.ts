@@ -10,9 +10,9 @@ const routes: Routes = [
     path: 'admin',
     component: AdminComponent,
     children: [
-      {path:'', pathMatch:'full', redirectTo: 'teacher'},
-      {path:'teacher',component: TeacherComponent},
-      {path:'student',component: StudentComponent},
+      { path: '', pathMatch: 'full', redirectTo: 'teacher' },
+      { path: 'teacher', component: TeacherComponent },
+      { path: 'student', component: StudentComponent },
     ]
   }
 ];

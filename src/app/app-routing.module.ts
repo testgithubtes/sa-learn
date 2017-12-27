@@ -7,10 +7,10 @@ import { AccueilComponent } from './accueil/accueil.component';
 
 
 const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: 'accueil'},
-  {path: 'cours',component:CoursComponent},
-  {path: 'about',component:AboutComponent},
-  {path: 'accueil',component:AccueilComponent}
+  { path: '', pathMatch: 'full', redirectTo: 'accueil' },
+  { path: 'cours', component: CoursComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'accueil', component: AccueilComponent }
 ];
 
 @NgModule({

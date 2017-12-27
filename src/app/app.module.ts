@@ -2,6 +2,7 @@ import { AdminModule } from './admin/admin.module';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { MatButtonModule } from '@angular/material';
 
 
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,11 +26,13 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
     MainComponent,
     AccueilComponent,
     SlideshowComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminModule
+    AdminModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

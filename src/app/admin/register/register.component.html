@@ -1,9 +1,9 @@
 <div class="container">
-  <label for="firstName">First name</label> <input [(ngModel)]='registerData.firstName' type="text" id="firstName">
-  <label for="lastName">Last name</label> <input [(ngModel)]='registerData.lastName' type="text" id="lastName">
-  <label for="userName">Username</label> <input [(ngModel)]='registerData.userName' type="text" id="userName">
-  <label for="email">Email</label> <input type="email" [(ngModel)]='registerData.email' id="email">
-  <label for="password">Password</label> <input [(ngModel)]='register.Data.password' type="password" id="password">
+  <label for="firstName">First name</label> <input [(ngModel)]='registerData.firstName' name ="firstName" type="text" id="firstName">
+  <label for="lastName">Last name</label> <input [(ngModel)]='registerData.lastName' name ="lastName" type="text" id="lastName">
+  <label for="userName">Username</label> <input [(ngModel)]='registerData.userName' name ="userName" type="text" id="userName">
+  <label for="email">Email</label> <input type="email" [(ngModel)]='registerData.email' name ="email" id="email">
+  <label for="password">Password</label> <input [(ngModel)]='registerData.password' name ="password" type="password" id="password">
   <label for="rePassword">RE-Password</label> <input type="password" id="rePassword">
   <button type="submit" (click)='post()' >Register</button>
 </div>
